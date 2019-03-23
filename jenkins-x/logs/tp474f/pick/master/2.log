@@ -1,19 +1,9 @@
 Step: build-step-credential-initializer:
 
-{"level":"warn","ts":1553340405.0791945,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/test\" is not a valid GitHub commit ID"}
-{"level":"info","ts":1553340405.0796905,"logger":"fallback-logger","caller":"creds-init/main.go:40","msg":"Credentials initialized."}
+Unable to retrieve container logs for docker://a62eba9d62103d494362ac47826999070bf246c331f4b52432a5a0bead8de15e
 Step: build-step-git-source-0:
 
-{"level":"warn","ts":1553340405.8176842,"logger":"fallback-logger","caller":"logging/config.go:65","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/test\" is not a valid GitHub commit ID"}
-{"level":"info","ts":1553340407.1638162,"logger":"fallback-logger","caller":"git-init/main.go:92","msg":"Successfully cloned \"https://github.com/tp474f/pick.git\" @ \"master\" in path \"/workspace\""}
+Unable to retrieve container logs for docker://722b3517ea2d070e6dfb12f610d524371873100bb195b60db8b946e242e3cb5a
 Step: build-step-jenkins:
 
-Picked up _JAVA_OPTIONS: -Xmx400m
-No argument is allowed: python3
- -f (--file) FILE        : Path to Jenkinsfile (or directory containing a
-                           Jenkinsfile) to run, default to ./Jenkinsfile.
- -p (--plugins) FILE     : plugins required to run pipeline. Either a
-                           plugins.txt file or a /plugins installation
-                           directory. Defaults to plugins.txt.
- -v (--version) VAL      : jenkins version to use. Defaults to latest LTS.
- -w (--jenkins-war) FILE : path to jenkins.war or exploded jenkins war directory
+Unable to retrieve container logs for docker://cad04bb5583de063f837093a87fc5e74b7b30baccfda7c0f3707069729031811
